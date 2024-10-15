@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "project1back",
+			"path": "../../project1back"
+		},
+		{
+			"path": "../../loginback"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../abc"
+		}
+	],
+	"settings": {}
+}
