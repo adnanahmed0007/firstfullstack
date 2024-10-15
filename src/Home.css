@@ -1,0 +1,85 @@
+/* Home.css */
+
+/* General styling for the home container */
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Make the container height equal to the viewport height */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style for the main image to cover the entire page */
+  .main-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Ensures the image covers the entire screen without distortion */
+    z-index: -1; /* Keeps the image behind the content */
+    filter: brightness(0.7); /* Adds a slight dark overlay to improve text readability */
+  }
+  
+  /* Overlay content */
+  .content-overlay {
+    position: relative;
+    z-index: 1; /* Keeps text and button on top of the image */
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 3em; /* Large heading */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the exercise info displayed */
+  .exercise-info {
+    margin-top: 15px;
+    font-size: 1.2em;
+    color: #ddd;
+  }
+  
+  /* Ensures responsive behavior on smaller screens */
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+  
+    .submit-btn {
+      font-size: 1em;
+      padding: 8px 15px;
+    }
+  }
+  

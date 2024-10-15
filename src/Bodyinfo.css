@@ -1,0 +1,66 @@
+/* Bodyinfo.css */
+
+.info-body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Maximum width for larger screens */
+    margin: auto; /* Center the container */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Space between input and button */
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent input */
+    color: white; /* White text for contrast */
+    font-size: 16px; /* Adjust font size */
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* Placeholder color */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61; /* Gym-friendly color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #ff4a4a; /* Darker shade on hover */
+}
+
+.exercise-info {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent background for exercise info */
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px; /* Space between exercise entries */
+    width: 100%; /* Full width for each exercise info box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for exercise info */
+}
+
+.exercise-info img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+h2 {
+    color: white; /* Color for "No data found" message */
+    text-align: center; /* Center the message */
+}

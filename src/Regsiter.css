@@ -1,0 +1,75 @@
+/* Set the background color or gradient for the entire page */
+ /* Set the background color or gradient for the entire page */
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black; /* Full black background */
+    color: white; /* White text for contrast */
+    height: 100vh; /* Ensure body takes full height */
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white for the form */
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; /* Half the width of the page */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    max-width: 400px; /* Optional: Set a maximum width */
+ margin-left: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Space between fields */
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent input fields */
+    color: white; /* White text in input */
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* Lighter color for placeholders */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61; /* A gym-friendly button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff4a4a; /* Darker shade on hover */
+}
+
+.userdetail {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+ margin-left:100px;
+ width: 300px;
+}

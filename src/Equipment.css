@@ -1,0 +1,100 @@
+  /* General container style */
+ /* General container style */
+.equipmentlistexercise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; /* Form occupies half of the page */
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:black;
+  }
+  
+  .heading_equipment {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field styling */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  /* Submit button styling */
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Exercise item styling */
+  .exercise-data {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .mainfile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers all items */
+    gap: 20px;
+  }
+  
+  .exercise-item {
+    width: 30%; /* Display 3 items in a row */
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .exercise-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    object-fit: contain; /* Ensures image doesn't stretch */
+  }
+  
+  .exercise-item p {
+    margin: 5px 0;
+  }
+  
+  strong {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    text-align: left;
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
